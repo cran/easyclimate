@@ -1,0 +1,52 @@
+
+bibentry(
+  mheader = "If you use easyclimate, please cite both the data source and the package as:",
+  bibtype = "Article",
+  title = "Spatial downscaling of European climate data",
+  author = c(
+    person("Adam", "Moreno"),
+    person("Hubert", "Hasenauer")),
+  year = "2016",
+  journal = "International Journal of Climatology",
+  number = "36",
+  pages = "1444–1458",
+  url = "https://doi.org/10.1002/joc.4436"
+)
+
+
+bibentry(
+  bibtype = "Manual",
+  title = "Description and Evaluation of Downscaled Daily Climate Data Version 3",
+  author = c(
+    person("Christoph", "Pucher"),
+    person("Mathias", "Neumann")),
+    year = "2022",
+    url = "https://doi.org/10.6084/m9.figshare.19070162.v1"
+)
+
+bibentry(
+  bibtype = "Manual",
+  title = "Description and Evaluation of Downscaled Daily Climate Data Version 4",
+  author = person("Christoph", "Pucher"),
+  year = "2023",
+  url = "https://doi.org/10.6084/m9.figshare.22962671.v1"
+)
+
+
+bibentry(
+  bibtype = "Article",
+  title = "The easyclimate R package: Easy access to high-resolution daily climate data for Europe",
+  author = c(
+  person("Verónica", "Cruz-Alonso", role = c("aut", "cre"), email = "veronica.cral@gmail.com", comment = c(ORCID = "0000-0002-0642-036X")),
+  person("Christoph", "Pucher", role = c("aut"), comment = c(ORCID = "0000-0002-9269-1907")),
+  person("Sophia", "Ratcliffe", role = c("aut"), comment = c(ORCID = "0000-0001-9284-7900")),
+  person("Paloma","Ruiz-Benito", role = c("aut"), comment = c(ORCID = "0000-0002-2781-5870")),
+  person("Julen","Astigarraga", role = c("aut"), comment = c(ORCID = "0000-0001-9520-3713")),
+  person("Mathias","Neumann", role = c("aut"), comment = c(ORCID = "0000-0003-2472-943X")),
+  person("Hubert","Hasenauer", role = c("aut"), comment = c(ORCID = "0000-0003-3469-4031")),
+  person("Francisco","Rodríguez-Sánchez", role = c("aut"), comment = c(ORCID = "0000-0002-7981-1599"))),
+  journal = "Environmental Modelling & Software",
+  pages = "105627",
+  year = "2023",
+  url = "https://doi.org/10.1016/j.envsoft.2023.105627"
+)
