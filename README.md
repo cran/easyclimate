@@ -7,14 +7,18 @@
 
 <!-- badges: start -->
 
+[![](https://www.r-pkg.org/badges/version/easyclimate)](https://cran.r-project.org/package=easyclimate)
+![](https://img.shields.io/github/r-package/v/VeruGHub/easyclimate)
+<a href="https://diffify.com/R/easyclimate" target="_blank"><img src="https://diffify.com/diffify-badge.svg" alt="The diffify page for the R package easyclimate" style="width: 100px; max-width: 100%;"></a>
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/VeruGHub/easyclimate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/VeruGHub/easyclimate/actions/workflows/R-CMD-check.yaml)
-[![HitCount](https://hits.dwyl.com/VeruGHub/easyclimate.svg?style=flat-square)](https://hits.dwyl.com/VeruGHub/easyclimate)
-[![HitCount: unique
-users](https://hits.dwyl.com/VeruGHub/easyclimate.svg?style=flat-square&show=unique)](https://hits.dwyl.com/VeruGHub/easyclimate)
-<!-- [![Codecov test coverage](https://codecov.io/gh/VeruGHub/easyclimate/branch/master/graph/badge.svg)](https://codecov.io/gh/VeruGHub/easyclimate?branch=master) -->
+[![HitCount since
+2022-10-27](https://hits.dwyl.com/VeruGHub/easyclimate.svg?style=flat-square)](https://hits.dwyl.com/VeruGHub/easyclimate)
+[![HitCount: unique users since
+2022-10-27](https://hits.dwyl.com/VeruGHub/easyclimate.svg?style=flat-square&show=unique)](https://hits.dwyl.com/VeruGHub/easyclimate)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/easyclimate)](https://cran.r-project.org/package=easyclimate)
 
 <!-- badges: end -->
 
@@ -34,10 +38,10 @@ document](https://doi.org/10.6084/m9.figshare.22962671.v1) for the
 updates of the last version - v4).
 
 In this R package we implemented [Cloud-Optimised
-Geotiffs](https://www.cogeo.org/) so that we can obtain daily climate
-data for thousands of sites/days within seconds/minutes, without having
-to download huge rasters. But if you need to obtain data for large
-areas, please download the rasters from the FTP server
+Geotiffs](http://cogeo.org/) so that we can obtain daily climate data
+for thousands of sites/days within seconds/minutes, without having to
+download huge rasters. But if you need to obtain data for large areas,
+please download the rasters from the FTP server
 (<ftp://palantir.boku.ac.at/Public/ClimateData/>) and extract the values
 locally rather than using this package, so as not to saturate the file
 server. For that, you may use a FTP client such as
@@ -49,6 +53,14 @@ version [here](https://doi.org/10.32942/osf.io/mc8uj)) or visit the
 package [website](https://verughub.github.io/easyclimate/).
 
 ## Installation
+
+Stable version from CRAN:
+
+``` r
+install.packages("easyclimate")
+```
+
+Development version from GitHub:
 
 ``` r
 # install.packages("remotes")
@@ -154,8 +166,8 @@ tutorials!
 
 ## CITATION
 
-If you use easyclimate, please cite both the data source and the package
-as:
+If you use easyclimate, please cite both the appropriate data source and
+the package as:
 
 Moreno A, Hasenauer H (2016). “Spatial downscaling of European climate
 data.” *International Journal of Climatology*, 1444–1458.
